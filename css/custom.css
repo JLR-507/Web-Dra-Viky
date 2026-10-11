@@ -56,3 +56,73 @@
 .contact-section .sucursal-mapa {
   width: 100%;
 }
+/* ===== CARRUSEL PRINCIPAL (index) ===== */
+/* Capa oscura sobre la foto, más fuerte a la izquierda donde va el texto */
+.home-slider .slider-item .overlay {
+  background: linear-gradient(90deg, rgba(0,0,0,.65) 0%, rgba(0,0,0,.35) 60%, rgba(0,0,0,.1) 100%) !important;
+  opacity: 1 !important;
+}
+
+/* Textos en blanco con una sombra suave para que se lean mejor */
+.home-slider .slider-text h1,
+.home-slider .slider-text h1 span,
+.home-slider .slider-text .subheading {
+  color: #fff !important;
+  text-shadow: 0 2px 8px rgba(0,0,0,.5);
+}
+
+/* Tamaños: título más compacto y subtítulo más discreto */
+.home-slider .slider-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.home-slider .slider-text .subheading {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Celulares: título más pequeño */
+@media (max-width: 575.98px) {
+  .home-slider .slider-text h1 { font-size: 32px; }
+  .home-slider .slider-text .subheading { font-size: 16px; }
+}
+/* ===== LOGO JUNTO AL NOMBRE (encabezado superior) ===== */
+/* Tamaño del logo y espacio entre el logo y el nombre */
+.navbar-brand .logo-header {
+  height: 70px;
+  width: auto;
+  margin-right: 12px;
+}
+
+/* Nombre y especialidad alineados a la izquierda, a un lado del logo */
+.navbar-brand div {
+  text-align: left;
+}
+
+/* Celulares: logo más pequeño */
+@media (max-width: 575.98px) {
+  .navbar-brand .logo-header {
+    height: 50px;
+  }
+}
+/* ===== ENCABEZADO: separar logo + nombre de los iconos de los lados ===== */
+/* Nombre un poco más pequeño y márgenes laterales (en computadora) */
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 32px !important;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+/* Más espacio entre el teléfono y el bloque central */
+.topper.order-md-1 {
+  padding-right: 20px;
+}
+
+/* Más espacio entre el bloque central y el horario */
+.topper.order-md-3 {
+  padding-left: 20px;
+}

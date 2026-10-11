@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+  <!-- Cabecera: título, configuración y hojas de estilo (CSS) -->
   <head>
+    <!-- Título que se muestra en la pestaña del navegador -->
     <title>Servicios - Dentista</title>
+    <!-- Codificación de caracteres (para que se vean tildes y ñ) -->
     <meta charset="utf-8">
+    <!-- Adaptación a celulares (diseño responsivo) -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Fuente Poppins de Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- CSS: iconos Open Iconic -->
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <!-- CSS: animaciones (Animate.css) -->
     <link rel="stylesheet" href="css/animate.css">
+    <!-- CSS: carrusel Owl Carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- CSS: tema del carrusel Owl Carousel -->
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- CSS: ventanas emergentes de imágenes (Magnific Popup) -->
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- CSS: animaciones al hacer scroll (AOS) -->
     <link rel="stylesheet" href="css/aos.css">
+    <!-- CSS: iconos Ionicons -->
     <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- CSS: calendario para elegir fechas -->
     <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <!-- CSS: selector de horas -->
     <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <!-- CSS: iconos dentales (Flaticon) -->
     <link rel="stylesheet" href="css/flaticon.css">
+    <!-- CSS: iconos IcoMoon -->
     <link rel="stylesheet" href="css/icomoon.css">
+    <!-- CSS: estilos principales de la plantilla (incluye Bootstrap) -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- CSS: estilos propios (menú fijo) -->
     <link rel="stylesheet" href="css/custom.css">
   </head>
+  <!-- Cuerpo: todo el contenido visible de la página -->
   <body>
+    <!-- Encabezado superior: logo, teléfono y horario -->
     <div class="py-md-5 py-4 border-bottom">
       <div class="container">
         <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+          <!-- Logo / nombre de la clínica (centro) -->
           <div class="col-md-4 order-md-2 mb-2 mb-md-0 align-items-center text-center">
-            <a class="navbar-brand" href="index.html">Dentista<span>Clínica Dental</span></a>
+            <a class="navbar-brand" href="index.html">Dra. Viky Ramírez <span>Odontologa </span></a>
           </div>
+          <!-- Teléfono (y dirección) de contacto (izquierda) -->
           <div class="col-md-4 order-md-1 d-flex topper mb-md-0 mb-2 align-items-center text-md-right">
             <div class="icon d-flex justify-content-center align-items-center order-md-last">
               <span class="icon-map"></span>
             </div>
             <div class="pr-md-4 pl-md-0 pl-3 text">
-              <p class="con"><span>Llama gratis</span> <span>+000 0000 0000</span></p>
-              <p class="con">Tu dirección aquí</p>
+              <p class="con"><span>Telefono:</span> <span>6640-8392</span></p>
             </div>
           </div>
+          <!-- Horario de atención (derecha) -->
           <div class="col-md-4 order-md-3 d-flex topper mb-md-0 align-items-center">
             <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
             <div class="text pl-3 pl-md-3">
               <p class="hr"><span>Horario</span></p>
-              <p class="time"><span>Lun - Sáb:</span> <span>8:00am - 9:00pm</span> Dom: Cerrado</p>
+              <p class="time"><span>Lun - Sáb:</span> <span>8:00am - 3:00pm</span> Dom: Cerrado</p>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Barra de navegación (menú fijo): Inicio, Sobre mí, Servicios, Contacto -->
     <nav class="navbar navbar-expand" id="ftco-navbar">
       <div class="container">
+        <!-- Enlaces del menú (el que tiene la clase "active" es la página actual) -->
         <ul class="navbar-nav mx-auto">
           <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">Sobre mí</a></li>
@@ -55,8 +79,9 @@
         </ul>
       </div>
     </nav>
-    <!-- END nav -->
+    <!-- Fin de la barra de navegación -->
 
+    <!-- Banner superior con el título de la página y la ruta (breadcrumbs) -->
     <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -69,9 +94,11 @@
       </div>
     </section>
 
+    <!-- Lista de servicios: tarjetas con imagen y descripción -->
     <section class="ftco-section ftco-services">
       <div class="container">
         <div class="row">
+          <!-- Tarjeta de servicio: Implantes dentales -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-1.jpg);"></div>
@@ -81,6 +108,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Odontología estética -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-2.jpg);"></div>
@@ -90,6 +118,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Limpieza dental -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-3.jpg);"></div>
@@ -99,6 +128,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Blanqueamiento -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-4.jpg);"></div>
@@ -108,6 +138,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Eliminación de sarro -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-5.jpg);"></div>
@@ -117,6 +148,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Periodoncia -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-6.jpg);"></div>
@@ -126,6 +158,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Ortodoncia -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-7.jpg);"></div>
@@ -135,6 +168,7 @@
               </div>
             </div>
           </div>
+          <!-- Tarjeta de servicio: Endodoncia -->
           <div class="col-md-4 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block">
               <div class="img w-100" style="background-image: url(images/dept-8.jpg);"></div>
@@ -148,6 +182,7 @@
       </div>
     </section>
 
+    <!-- Banner "Agenda tu consulta" con botón hacia Contacto -->
     <section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
@@ -163,9 +198,11 @@
       </div>
     </section>
 
+    <!-- Pie de página -->
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
         <div class="row mb-4">
+          <!-- Pie de página, columna izquierda: nombre y descripción -->
           <div class="col-md-6 mb-4 mb-md-0">
             <h2 class="ftco-heading-2 logo">Dentista</h2>
             <p>Cuidamos tu sonrisa con atención cercana y profesional.</p>
@@ -174,14 +211,14 @@
             <h2 class="ftco-heading-2">Contacto</h2>
             <div class="block-23">
               <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">Tu dirección aquí</span></li>
-                <li><span class="icon icon-phone"></span><span class="text">+000 0000 0000</span></li>
-                <li><span class="icon icon-envelope"></span><span class="text">correo@tudominio.com</span></li>
+                <li><span class="icon icon-phone"></span><span class="text">6640-8392</span></li>
+                <li><span class="icon icon-envelope"></span><span class="text">vikyramirezh@gmail.com</span></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="row">
+          <!-- Pie de página, fila de derechos de autor (Copyright) -->
           <div class="col-md-12 text-center">
             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
   Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Plantilla creada con <i class="icon-heart" aria-hidden="true"></i> por <a href="https://colorlib.com" target="_blank">Colorlib</a>
@@ -190,24 +227,41 @@
         </div>
       </div>
     </footer>
+    <!-- Fin del pie de página -->
 
-  <!-- loader -->
+  <!-- Pantalla de carga: círculo animado que desaparece cuando la página termina de cargar -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
+  <!-- JavaScript: los scripts se cargan al final para que la página aparezca más rápido -->
+  <!-- Librería jQuery (base de casi todos los demás scripts) -->
   <script src="js/jquery.min.js"></script>
+  <!-- jQuery Migrate: compatibilidad con código jQuery antiguo -->
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <!-- Popper: posiciona menús y ventanas flotantes de Bootstrap -->
   <script src="js/popper.min.js"></script>
+  <!-- Bootstrap: funciones del framework (menús, botones, etc.) -->
   <script src="js/bootstrap.min.js"></script>
+  <!-- jQuery Easing: movimientos suaves en las animaciones -->
   <script src="js/jquery.easing.1.3.js"></script>
+  <!-- Waypoints: detecta cuándo un elemento aparece al hacer scroll -->
   <script src="js/jquery.waypoints.min.js"></script>
+  <!-- Stellar: efecto parallax en las imágenes de fondo -->
   <script src="js/jquery.stellar.min.js"></script>
+  <!-- Owl Carousel: carrusel de diapositivas -->
   <script src="js/owl.carousel.min.js"></script>
+  <!-- Magnific Popup: ventanas emergentes de imágenes -->
   <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- AOS: animaciones al hacer scroll -->
   <script src="js/aos.js"></script>
+  <!-- Animate Number: contadores animados -->
   <script src="js/jquery.animateNumber.min.js"></script>
+  <!-- Datepicker: selector de fechas -->
   <script src="js/bootstrap-datepicker.js"></script>
+  <!-- Timepicker: selector de horas -->
   <script src="js/jquery.timepicker.min.js"></script>
+  <!-- Scrollax: efectos parallax con el scroll -->
   <script src="js/scrollax.min.js"></script>
+  <!-- main.js: script principal de la plantilla (pantalla de carga, carrusel, animaciones) -->
   <script src="js/main.js"></script>
   </body>
 </html>

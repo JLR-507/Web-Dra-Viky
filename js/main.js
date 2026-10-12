@@ -43,6 +43,8 @@
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
 	    loop:true,
+		touchDrag: false,   // el dedo ya no arrastra el carrusel, así que el scroll funciona
+        mouseDrag: false,   // lo mismo con el mouse
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',

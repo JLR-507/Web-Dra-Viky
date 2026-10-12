@@ -182,11 +182,70 @@
     padding-right: 0 !important;
   }
 }
-/* Permite hacer scroll vertical con el dedo sobre el carrusel principal (celular) */
-.home-slider,
-.home-slider .owl-stage-outer,
-.home-slider .owl-stage,
-.home-slider .owl-item,
-.home-slider .slider-item {
-  touch-action: pan-y;
+/* ===== BOTONES VERDES: tono más oscuro ===== */
+/* Color normal del botón */
+.btn.btn-secondary {
+  background: #5a8a1f !important;
+  border-color: #5a8a1f !important;
+  color: #fff !important;
+}
+
+/* Color al pasar el mouse o al tocarlo (un poco más oscuro todavía) */
+.btn.btn-secondary:hover,
+.btn.btn-secondary:focus,
+.btn.btn-secondary:active {
+  background: #46701a !important;
+  border-color: #46701a !important;
+  color: #fff !important;
+}
+/* ===== BANNER "AGENDA TU CONSULTA": letras más grandes ===== */
+/* Título del banner */
+.ftco-intro h2 {
+  font-size: 38px !important;
+}
+
+/* Frase debajo del título */
+.ftco-intro .col-md-9 p {
+  font-size: 20px !important;
+}
+
+/* ===== PIE DE PÁGINA: letras más grandes ===== */
+/* Títulos ("Dentista" y "Contacto") */
+.ftco-footer .ftco-heading-2 {
+  font-size: 24px !important;
+  margin-bottom: 20px;
+}
+
+/* Descripción del lado izquierdo */
+.ftco-footer .col-md-6 > p {
+  font-size: 17px !important;
+  line-height: 1.7;
+}
+
+/* Teléfono y correo del lado derecho */
+.ftco-footer .block-23 ul li .text {
+  font-size: 17px !important;
+}
+
+/* Iconos del teléfono y el correo, a juego con el texto */
+.ftco-footer .block-23 ul li .icon {
+  font-size: 20px !important;
+}
+/* ===== ENCABEZADO SUPERIOR: teléfono y horario más grandes ===== */
+/* Teléfono */
+.topper .text p.con,
+.topper .text p.con span {
+  font-size: 17px !important;
+}
+
+/* Palabra "Horario" */
+.topper .text p.hr,
+.topper .text p.hr span {
+  font-size: 18px !important;
+}
+
+/* Línea de días y horas */
+.topper .text p.time,
+.topper .text p.time span {
+  font-size: 15px !important;
 }

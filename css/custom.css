@@ -182,3 +182,11 @@
     padding-right: 0 !important;
   }
 }
+/* Permite hacer scroll vertical con el dedo sobre el carrusel principal (celular) */
+.home-slider,
+.home-slider .owl-stage-outer,
+.home-slider .owl-stage,
+.home-slider .owl-item,
+.home-slider .slider-item {
+  touch-action: pan-y;
+}

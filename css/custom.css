@@ -126,3 +126,59 @@
 .topper.order-md-3 {
   padding-left: 20px;
 }
+/* ===== CELULAR: MAPAS DE LAS SUCURSALES ===== */
+@media (max-width: 991.98px) {
+  /* En celular el texto y el mapa van uno debajo del otro, a todo el ancho de la tarjeta */
+  .contact-section .sucursal-info,
+  .contact-section .sucursal-mapa {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-section .sucursal-info {
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+
+  /* El mapa se ajusta al ancho de la tarjeta y no se sale */
+  .contact-section .sucursal-mapa iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 220px;
+  }
+}
+
+/* ===== CELULAR: ENCABEZADO SUPERIOR (logo, nombre, teléfono y horario) ===== */
+@media (max-width: 767.98px) {
+  /* Logo y nombre más pequeños, y permite que el texto baje de línea si no cabe */
+  .navbar-brand {
+    font-size: 24px !important;
+    white-space: normal;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar-brand .logo-header {
+    height: 45px;
+    margin-right: 8px;
+  }
+
+  /* Teléfono y horario centrados y alineados entre sí */
+  .topper {
+    justify-content: center;
+    text-align: left !important;
+    padding: 0 !important;
+    margin-bottom: 10px;
+  }
+
+  .topper .icon {
+    order: 0 !important;
+    margin-right: 12px;
+  }
+
+  .topper .text {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
